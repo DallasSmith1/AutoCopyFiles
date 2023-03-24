@@ -45,9 +45,10 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(504, 621);
+            this.btnCancel.Location = new System.Drawing.Point(271, 241);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(150, 46);
+            this.btnCancel.Size = new System.Drawing.Size(81, 22);
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "&Cancel";
             this.toolTip1.SetToolTip(this.btnCancel, "Cancel copy process");
@@ -57,62 +58,69 @@
             // lblStarting
             // 
             this.lblStarting.AutoSize = true;
-            this.lblStarting.Location = new System.Drawing.Point(364, 328);
+            this.lblStarting.Location = new System.Drawing.Point(199, 126);
+            this.lblStarting.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblStarting.Name = "lblStarting";
-            this.lblStarting.Size = new System.Drawing.Size(239, 32);
+            this.lblStarting.Size = new System.Drawing.Size(120, 15);
             this.lblStarting.TabIndex = 0;
             this.lblStarting.Text = "AutoCopy starting in:";
             // 
             // lblTimer
             // 
             this.lblTimer.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTimer.Location = new System.Drawing.Point(378, 375);
+            this.lblTimer.Location = new System.Drawing.Point(204, 150);
+            this.lblTimer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(213, 158);
+            this.lblTimer.Size = new System.Drawing.Size(115, 74);
             this.lblTimer.TabIndex = 0;
             this.lblTimer.Text = "60";
             // 
             // tbxCopyFrom
             // 
             this.tbxCopyFrom.Enabled = false;
-            this.tbxCopyFrom.Location = new System.Drawing.Point(135, 50);
+            this.tbxCopyFrom.Location = new System.Drawing.Point(73, 23);
+            this.tbxCopyFrom.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.tbxCopyFrom.Name = "tbxCopyFrom";
-            this.tbxCopyFrom.Size = new System.Drawing.Size(798, 39);
+            this.tbxCopyFrom.Size = new System.Drawing.Size(432, 23);
             this.tbxCopyFrom.TabIndex = 0;
             this.toolTip1.SetToolTip(this.tbxCopyFrom, "Directory where the program is copying from");
             // 
             // lblCopyFrom
             // 
             this.lblCopyFrom.AutoSize = true;
-            this.lblCopyFrom.Location = new System.Drawing.Point(55, 53);
+            this.lblCopyFrom.Location = new System.Drawing.Point(30, 25);
+            this.lblCopyFrom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCopyFrom.Name = "lblCopyFrom";
-            this.lblCopyFrom.Size = new System.Drawing.Size(74, 32);
+            this.lblCopyFrom.Size = new System.Drawing.Size(38, 15);
             this.lblCopyFrom.TabIndex = 0;
             this.lblCopyFrom.Text = "Copy:";
             // 
             // lblSave
             // 
             this.lblSave.AutoSize = true;
-            this.lblSave.Location = new System.Drawing.Point(34, 123);
+            this.lblSave.Location = new System.Drawing.Point(18, 58);
+            this.lblSave.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSave.Name = "lblSave";
-            this.lblSave.Size = new System.Drawing.Size(98, 32);
+            this.lblSave.Size = new System.Drawing.Size(48, 15);
             this.lblSave.TabIndex = 0;
             this.lblSave.Text = "Save to:";
             // 
             // tbxSaveTo
             // 
             this.tbxSaveTo.Enabled = false;
-            this.tbxSaveTo.Location = new System.Drawing.Point(135, 120);
+            this.tbxSaveTo.Location = new System.Drawing.Point(73, 56);
+            this.tbxSaveTo.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.tbxSaveTo.Name = "tbxSaveTo";
-            this.tbxSaveTo.Size = new System.Drawing.Size(798, 39);
+            this.tbxSaveTo.Size = new System.Drawing.Size(432, 23);
             this.tbxSaveTo.TabIndex = 0;
             this.toolTip1.SetToolTip(this.tbxSaveTo, "Directory to the folder the program is saving the files too");
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(406, 200);
+            this.btnEdit.Location = new System.Drawing.Point(219, 94);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(150, 46);
+            this.btnEdit.Size = new System.Drawing.Size(81, 22);
             this.btnEdit.TabIndex = 1;
             this.btnEdit.Text = "&Edit";
             this.toolTip1.SetToolTip(this.btnEdit, "Edit directories and other settings");
@@ -126,9 +134,10 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(316, 621);
+            this.btnStart.Location = new System.Drawing.Point(171, 241);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(150, 46);
+            this.btnStart.Size = new System.Drawing.Size(81, 22);
             this.btnStart.TabIndex = 2;
             this.btnStart.Text = "&Start Now";
             this.toolTip1.SetToolTip(this.btnStart, "Skip timer and start copying");
@@ -138,11 +147,11 @@
             // frmMain
             // 
             this.AcceptButton = this.btnStart;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(967, 679);
+            this.ClientSize = new System.Drawing.Size(526, 275);
             this.ControlBox = false;
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnEdit);
@@ -154,8 +163,9 @@
             this.Controls.Add(this.lblStarting);
             this.Controls.Add(this.btnCancel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(993, 750);
-            this.MinimumSize = new System.Drawing.Size(993, 750);
+            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.MaximumSize = new System.Drawing.Size(542, 314);
+            this.MinimumSize = new System.Drawing.Size(542, 314);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AutoCopy";

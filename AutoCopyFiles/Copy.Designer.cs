@@ -56,7 +56,7 @@
             this.pbxFinding.Image = global::AutoCopyFiles.Properties.Resources.finding;
             this.pbxFinding.Location = new System.Drawing.Point(12, 12);
             this.pbxFinding.Name = "pbxFinding";
-            this.pbxFinding.Size = new System.Drawing.Size(382, 258);
+            this.pbxFinding.Size = new System.Drawing.Size(217, 145);
             this.pbxFinding.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxFinding.TabIndex = 0;
             this.pbxFinding.TabStop = false;
@@ -67,7 +67,7 @@
             this.pbxSaving.Image = global::AutoCopyFiles.Properties.Resources.saving;
             this.pbxSaving.Location = new System.Drawing.Point(12, 12);
             this.pbxSaving.Name = "pbxSaving";
-            this.pbxSaving.Size = new System.Drawing.Size(382, 258);
+            this.pbxSaving.Size = new System.Drawing.Size(217, 145);
             this.pbxSaving.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxSaving.TabIndex = 2;
             this.pbxSaving.TabStop = false;
@@ -76,17 +76,17 @@
             // lblStatus
             // 
             this.lblStatus.Font = new System.Drawing.Font("Segoe UI", 25.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblStatus.Location = new System.Drawing.Point(409, 82);
+            this.lblStatus.Location = new System.Drawing.Point(235, 12);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(560, 188);
+            this.lblStatus.Size = new System.Drawing.Size(242, 207);
             this.lblStatus.TabIndex = 3;
             this.lblStatus.Text = "Reading Files";
             // 
             // progressbar
             // 
-            this.progressbar.Location = new System.Drawing.Point(24, 379);
+            this.progressbar.Location = new System.Drawing.Point(24, 238);
             this.progressbar.Name = "progressbar";
-            this.progressbar.Size = new System.Drawing.Size(914, 46);
+            this.progressbar.Size = new System.Drawing.Size(440, 27);
             this.progressbar.Step = 1;
             this.progressbar.TabIndex = 4;
             this.progressbar.Visible = false;
@@ -94,9 +94,9 @@
             // lblCopiedFiles
             // 
             this.lblCopiedFiles.AutoSize = true;
-            this.lblCopiedFiles.Location = new System.Drawing.Point(24, 344);
+            this.lblCopiedFiles.Location = new System.Drawing.Point(24, 220);
             this.lblCopiedFiles.Name = "lblCopiedFiles";
-            this.lblCopiedFiles.Size = new System.Drawing.Size(27, 32);
+            this.lblCopiedFiles.Size = new System.Drawing.Size(13, 15);
             this.lblCopiedFiles.TabIndex = 7;
             this.lblCopiedFiles.Text = "0";
             this.lblCopiedFiles.Visible = false;
@@ -106,7 +106,7 @@
             this.pbxComplete.Image = global::AutoCopyFiles.Properties.Resources.green_tick_png_green_tick_icon_image_4113251;
             this.pbxComplete.Location = new System.Drawing.Point(69, 12);
             this.pbxComplete.Name = "pbxComplete";
-            this.pbxComplete.Size = new System.Drawing.Size(266, 258);
+            this.pbxComplete.Size = new System.Drawing.Size(160, 145);
             this.pbxComplete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxComplete.TabIndex = 9;
             this.pbxComplete.TabStop = false;
@@ -117,7 +117,7 @@
             this.pbxWarning.Image = global::AutoCopyFiles.Properties.Resources.warning;
             this.pbxWarning.Location = new System.Drawing.Point(69, 12);
             this.pbxWarning.Name = "pbxWarning";
-            this.pbxWarning.Size = new System.Drawing.Size(266, 258);
+            this.pbxWarning.Size = new System.Drawing.Size(160, 145);
             this.pbxWarning.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxWarning.TabIndex = 11;
             this.pbxWarning.TabStop = false;
@@ -126,9 +126,9 @@
             // lblFailedFiles
             // 
             this.lblFailedFiles.AutoSize = true;
-            this.lblFailedFiles.Location = new System.Drawing.Point(377, 289);
+            this.lblFailedFiles.Location = new System.Drawing.Point(178, 178);
             this.lblFailedFiles.Name = "lblFailedFiles";
-            this.lblFailedFiles.Size = new System.Drawing.Size(221, 32);
+            this.lblFailedFiles.Size = new System.Drawing.Size(109, 15);
             this.lblFailedFiles.TabIndex = 12;
             this.lblFailedFiles.Text = "Files Failed to Copy";
             this.lblFailedFiles.Visible = false;
@@ -136,10 +136,10 @@
             // lbxFailedFiles
             // 
             this.lbxFailedFiles.FormattingEnabled = true;
-            this.lbxFailedFiles.ItemHeight = 32;
-            this.lbxFailedFiles.Location = new System.Drawing.Point(96, 324);
+            this.lbxFailedFiles.ItemHeight = 15;
+            this.lbxFailedFiles.Location = new System.Drawing.Point(52, 196);
             this.lbxFailedFiles.Name = "lbxFailedFiles";
-            this.lbxFailedFiles.Size = new System.Drawing.Size(777, 324);
+            this.lbxFailedFiles.Size = new System.Drawing.Size(398, 124);
             this.lbxFailedFiles.TabIndex = 14;
             this.toolTip1.SetToolTip(this.lbxFailedFiles, "Lists all directories to files that failed to be copied");
             this.lbxFailedFiles.Visible = false;
@@ -147,7 +147,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(409, 660);
+            this.btnClose.Location = new System.Drawing.Point(164, 351);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(150, 46);
             this.btnClose.TabIndex = 15;
@@ -164,9 +164,9 @@
             // lblRetry
             // 
             this.lblRetry.AutoSize = true;
-            this.lblRetry.Location = new System.Drawing.Point(424, 478);
+            this.lblRetry.Location = new System.Drawing.Point(212, 291);
             this.lblRetry.Name = "lblRetry";
-            this.lblRetry.Size = new System.Drawing.Size(117, 32);
+            this.lblRetry.Size = new System.Drawing.Size(60, 15);
             this.lblRetry.TabIndex = 16;
             this.lblRetry.Text = "Retrying...";
             this.lblRetry.Visible = false;
@@ -174,9 +174,9 @@
             // lblRetryTimer
             // 
             this.lblRetryTimer.AutoSize = true;
-            this.lblRetryTimer.Location = new System.Drawing.Point(342, 527);
+            this.lblRetryTimer.Location = new System.Drawing.Point(178, 323);
             this.lblRetryTimer.Name = "lblRetryTimer";
-            this.lblRetryTimer.Size = new System.Drawing.Size(276, 32);
+            this.lblRetryTimer.Size = new System.Drawing.Size(136, 15);
             this.lblRetryTimer.TabIndex = 17;
             this.lblRetryTimer.Text = "Moving on in 0 minutes.";
             this.lblRetryTimer.Visible = false;
@@ -191,10 +191,10 @@
             // Copy
             // 
             this.AcceptButton = this.btnClose;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClose;
-            this.ClientSize = new System.Drawing.Size(981, 718);
+            this.ClientSize = new System.Drawing.Size(489, 408);
             this.ControlBox = false;
             this.Controls.Add(this.lblRetryTimer);
             this.Controls.Add(this.lblRetry);
@@ -211,7 +211,6 @@
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1007, 789);
-            this.MinimumSize = new System.Drawing.Size(1007, 789);
             this.Name = "Copy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Copy";
