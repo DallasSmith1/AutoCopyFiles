@@ -1,0 +1,14 @@
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\AutoCopyFiles.exe
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\AutoCopyFiles.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\AutoCopyFiles.deps.json
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\AutoCopyFiles.runtimeconfig.json
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\AutoCopyFiles.pdb
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\Microsoft.Win32.TaskScheduler.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\source\repos\AutoCopyFiles\AutoCopyFiles\bin\Release\net6.0-windows\publish\zh-Hant\Microsoft.Win32.TaskScheduler.resources.dll

@@ -1,0 +1,14 @@
+C:\Users\Dallas\Desktop\AutoCopy\AutoCopyFiles.exe
+C:\Users\Dallas\Desktop\AutoCopy\AutoCopyFiles.dll
+C:\Users\Dallas\Desktop\AutoCopy\AutoCopyFiles.deps.json
+C:\Users\Dallas\Desktop\AutoCopy\AutoCopyFiles.runtimeconfig.json
+C:\Users\Dallas\Desktop\AutoCopy\AutoCopyFiles.pdb
+C:\Users\Dallas\Desktop\AutoCopy\Microsoft.Win32.TaskScheduler.dll
+C:\Users\Dallas\Desktop\AutoCopy\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\Desktop\AutoCopy\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\Desktop\AutoCopy\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\Desktop\AutoCopy\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\Desktop\AutoCopy\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\Desktop\AutoCopy\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\Desktop\AutoCopy\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Dallas\Desktop\AutoCopy\zh-Hant\Microsoft.Win32.TaskScheduler.resources.dll
